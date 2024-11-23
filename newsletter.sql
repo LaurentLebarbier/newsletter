@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `newsletter` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `mail` varchar(150) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
